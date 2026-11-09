@@ -1,0 +1,43 @@
+{
+  "daily": {
+    "sip_clients": {
+      "pipecat-harness-bot": {
+        "domain": "cloud-372e5a69aac349f08a312211e75f28c2.sip-us.daily.co",
+        "password": "eeee0323-7717-4b41-bd57-f8a8b5c6a37f",
+        "sip_uri": "sip:pipecat-harness-bot@cloud-372e5a69aac349f08a312211e75f28c2.sip-us.daily.co",
+        "username": "pipecat-harness-bot"
+      },
+      "pipecat-harness-dev": {
+        "domain": "cloud-372e5a69aac349f08a312211e75f28c2.sip-us.daily.co",
+        "password": "c6b1024d-0d88-404b-96fd-a4eba3b450e5",
+        "sip_uri": "sip:pipecat-harness-dev@cloud-372e5a69aac349f08a312211e75f28c2.sip-us.daily.co",
+        "username": "pipecat-harness-dev"
+      }
+    }
+  },
+  "twilio": {
+    "acl": {
+      "ip_address": "184.186.29.106",
+      "sid": "AL5c8c0dc44e0064ee0903b136fc0c3d6a"
+    },
+    "credential": {
+      "list_sid": "CL1f119e77809f97dae02a7326ad0b3e84",
+      "password": "dKURXdNqHt4CZnkiKPML",
+      "sid": "CR7a4b230cbdcafce5c949d20c911ad650",
+      "username": "pipecat-harness"
+    },
+    "domain_suffix": "5709b23e",
+    "number": {
+      "phone_number": "+13373371969",
+      "sid": "PNf7a5470a8bf2ce5998fd6c2594da737b"
+    },
+    "origination": {
+      "sid": "OU246bea22831d78dc818be60ffc7e46f2",
+      "sip_url": "sip:pipecat-harness-bot@cloud-372e5a69aac349f08a312211e75f28c2.sip-us.daily.co;transport=tls"
+    },
+    "trunk": {
+      "domain_name": "pipecat-harness-5709b23e.pstn.twilio.com",
+      "sid": "TKdae03a875625ebc21fd11a94b220bb89"
+    }
+  }
+}

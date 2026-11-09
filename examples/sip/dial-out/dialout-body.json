@@ -1,0 +1,8 @@
+{
+  "dialout_settings": {
+    "headers": {
+      "P-Asserted-Identity": "<sip:+13373371969@sip.twilio.com>"
+    },
+    "sipUri": "sip:+16104204483@pipecat-harness-e9f2e57a.pstn.twilio.com"
+  }
+}
